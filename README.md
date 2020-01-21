@@ -4,7 +4,7 @@ Generate text based upon the pervious text! You can ever choose how many words y
 
 In the file ComputerGeneratedText_.py, there are two functions:
 1. createDictionary(filename)
---This function creates a ductionary with all of the text from the plain text file that you feed it! It automatically creates a dictionarly with every word from your file with the different words that come after it. This way, when you generate text, the computer will know other words that are likely to come after the words stored in your dictionary.
+--This function creates a dictionary with all of the text from the plain text file that you feed it! It automatically creates a dictionary with every word from your file with the different words that come after it. This way, when you generate text, the computer will know other words that are likely to come after the words stored in your dictionary.
 
 2. generateText(d, N)
 --This function inputs the dictionary that you have created using the function createDictionary as well as the number of words you want the function to generate. The function outputs new text with N number of words. 
